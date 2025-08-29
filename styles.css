@@ -667,26 +667,24 @@ p {
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: var(--white);
 }
 
 .feature-card .feature-icon i {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--white);
-    font-weight: 900;
+    font-weight: normal;
     display: block;
     text-align: center;
     line-height: 1;
+    font-style: normal;
 }
 
-/* Fallback for missing icons */
-.feature-card .feature-icon i:before {
-    content: attr(data-fallback);
-    font-family: 'FontAwesome', sans-serif;
-}
-
+/* Fallback for empty icons */
 .feature-card .feature-icon:empty:before {
     content: "⚡";
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--white);
     display: block;
     text-align: center;

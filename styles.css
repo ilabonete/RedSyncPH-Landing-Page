@@ -440,6 +440,20 @@ p {
     line-height: 1;
 }
 
+/* Fallback for missing icons */
+.feature-card .feature-icon i:before {
+    content: attr(data-fallback);
+    font-family: 'FontAwesome', sans-serif;
+}
+
+.feature-card .feature-icon:empty:before {
+    content: "⚡";
+    font-size: 1.8rem;
+    color: var(--white);
+    display: block;
+    text-align: center;
+}
+
 .feature-card h3 {
     color: var(--black);
     margin-bottom: 1rem;

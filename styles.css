@@ -671,16 +671,6 @@ p {
     color: var(--white);
 }
 
-.feature-card .feature-icon i {
-    font-size: 2rem;
-    color: var(--white);
-    font-weight: normal;
-    display: block;
-    text-align: center;
-    line-height: 1;
-    font-style: normal;
-}
-
 /* Fallback for empty icons */
 .feature-card .feature-icon:empty:before {
     content: "⚡";

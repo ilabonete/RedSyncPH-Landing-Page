@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+                           <a href="#waitlist" class="btn btn-secondary">
+                            <i class="fas fa-bell"></i>
+                            Join Waitlist
+                        </a>ta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedSync PH - Digital Hemophilia Management for Davao City</title>
     <meta name="description" content="Empowering Filipino hemophilia patients in Davao City with comprehensive digital health management tools, offline access, and AI-powered support.">
@@ -20,7 +23,8 @@
             <div class="nav-menu">
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#about" class="nav-link">About</a>
-                <a href="#download" class="nav-link">Download</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#waitlist" class="nav-link">Join Waitlist</a>
             </div>
             <div class="nav-toggle">
                 <span></span>
@@ -394,44 +398,136 @@
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="download">
+    <!-- Team Section -->
+    <section id="team" class="team">
         <div class="container">
-            <div class="download-content">
-                <h2>Ready to Join the Digital Health Revolution in Hemophilia Care?</h2>
-                <p>Be part of the evidence-based solution developed with and for the Filipino hemophilia community</p>
-                <div class="download-card">
-                    <div class="download-info">
+            <div class="section-header">
+                <h2>Meet the Development Team</h2>
+                <p>University of the Immaculate Conception students specializing in Healthcare Technology</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="member-info">
+                        <h3>Ian Ben Labonete</h3>
+                        <p class="member-role">Project Leader</p>
+                        <p class="member-description">Planning, Execution, Monitoring, and Controlling the project to ensure successful completion.</p>
+                        <div class="member-details">
+                            <p><i class="fas fa-birthday-cake"></i> October 24, 2000</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Catalunan Grande, Davao City</p>
+                            <p><i class="fas fa-university"></i> BS Information Technology - Healthcare Education</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="member-info">
+                        <h3>Jhon Norban Rulona</h3>
+                        <p class="member-role">Backend Developer & Analyst</p>
+                        <p class="member-description">Coordinates team meetings, ensures project milestones, and oversees documentation alignment with project goals.</p>
+                        <div class="member-details">
+                            <p><i class="fas fa-birthday-cake"></i> September 17, 1999</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Purok 4-B Nuevo Iloco, Mawab, Davao de Oro</p>
+                            <p><i class="fas fa-university"></i> BS Information Technology - Healthcare Education</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mikko Jardenico</h3>
+                        <p class="member-role">Developer & UI/UX Designer</p>
+                        <p class="member-description">Responsible for writing clean, maintainable code and implementing core functionalities with focus on user experience.</p>
+                        <div class="member-details">
+                            <p><i class="fas fa-birthday-cake"></i> June 13, 2003</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Purok 4B, Matina Pangi, Davao City</p>
+                            <p><i class="fas fa-university"></i> BS Information Technology - Healthcare Education</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-footer">
+                <div class="university-info">
+                    <h4><i class="fas fa-graduation-cap"></i> University of the Immaculate Conception</h4>
+                    <p>Bachelor of Science in Information Technology Specialized in Healthcare Education</p>
+                    <p class="academic-year">Academic Year: 2025-Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="waitlist" class="waitlist">
+        <div class="container">
+            <div class="waitlist-content">
+                <h2>Join the RedSync PH Waitlist</h2>
+                <p>Be the first to know when RedSync PH launches! Get early access and help us build the future of hemophilia care in the Philippines.</p>
+                <div class="waitlist-card">
+                    <div class="waitlist-info">
                         <div class="app-icon">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
                         <div class="app-details">
                             <h3>RedSync PH</h3>
-                            <p>Digital Hemophilia Management</p>
+                            <p>Coming Soon - In Development</p>
                             <div class="app-meta">
-                                <span><i class="fas fa-star"></i> New Release</span>
-                                <span><i class="fas fa-download"></i> APK Download</span>
-                                <span><i class="fas fa-shield-alt"></i> Secure</span>
+                                <span><i class="fas fa-code"></i> In Development</span>
+                                <span><i class="fas fa-users"></i> <span id="waitlistCount">0</span> Waiting</span>
+                                <span><i class="fas fa-shield-alt"></i> Early Access</span>
                             </div>
                         </div>
                     </div>
-                    <div class="download-actions">
-                        <a href="#" class="btn btn-download" id="downloadBtn">
-                            <i class="fas fa-download"></i>
-                            Download APK
-                        </a>
-                        <p class="download-note">Compatible with Android devices</p>
+                    <div class="waitlist-form">
+                        <form id="waitlistForm">
+                            <div class="form-group">
+                                <input type="text" id="userName" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="userEmail" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="userType" required>
+                                    <option value="">I am a...</option>
+                                    <option value="patient">Patient with Hemophilia</option>
+                                    <option value="caregiver">Caregiver/Family Member</option>
+                                    <option value="healthcare">Healthcare Professional</option>
+                                    <option value="researcher">Researcher/Student</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-waitlist">
+                                <i class="fas fa-bell"></i>
+                                Join Waitlist
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <div class="installation-steps">
-                    <h3>Installation Steps:</h3>
-                    <ol>
-                        <li>Download the APK file</li>
-                        <li>Enable "Install from Unknown Sources" in your Android settings</li>
-                        <li>Open the downloaded APK file</li>
-                        <li>Follow the installation prompts</li>
-                        <li>Create your account and start managing your health</li>
-                    </ol>
+                <div class="waitlist-benefits">
+                    <h4>Why Join Our Waitlist?</h4>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span>Early access to beta testing</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-gift"></i>
+                            <span>Exclusive launch features</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Direct feedback channel</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Free premium features</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -453,8 +549,9 @@
                         <h4>For Users</h4>
                         <ul>
                             <li><a href="#features">Features</a></li>
-                            <li><a href="#download">Download</a></li>
+                            <li><a href="#waitlist">Join Waitlist</a></li>
                             <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
                         </ul>
                     </div>
                     <div class="footer-section">

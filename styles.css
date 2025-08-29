@@ -1304,6 +1304,245 @@ p {
     }
 }
 
+/* Team Section */
+.team {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #FEF2F2, var(--white));
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.team-member {
+    background: var(--white);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(220, 38, 38, 0.1);
+    border: 1px solid rgba(220, 38, 38, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(220, 38, 38, 0.15);
+}
+
+.member-photo {
+    margin-bottom: 1.5rem;
+}
+
+.member-photo i {
+    font-size: 4rem;
+    color: var(--primary-red);
+    background: var(--light-red);
+    padding: 1.5rem;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.member-info h3 {
+    color: var(--primary-red);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.member-role {
+    color: var(--secondary-red);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.member-description {
+    color: var(--dark-gray);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.member-details {
+    text-align: left;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.member-details p {
+    color: var(--dark-gray);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.member-details i {
+    color: var(--primary-red);
+    width: 16px;
+}
+
+.team-footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 1rem;
+    border: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.university-info h4 {
+    color: var(--primary-red);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.university-info p {
+    color: var(--dark-gray);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.academic-year {
+    color: var(--secondary-red);
+    font-weight: 600;
+}
+
+/* Waitlist Section */
+.waitlist {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--white), #FEF2F2);
+}
+
+.waitlist-content {
+    text-align: center;
+}
+
+.waitlist-content h2 {
+    color: var(--primary-red);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.waitlist-content > p {
+    color: var(--dark-gray);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waitlist-card {
+    background: var(--white);
+    border-radius: 2rem;
+    padding: 3rem;
+    box-shadow: 0 16px 48px rgba(220, 38, 38, 0.1);
+    border: 1px solid rgba(220, 38, 38, 0.1);
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waitlist-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.waitlist-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgba(220, 38, 38, 0.2);
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background: var(--white);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--primary-red);
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+.btn-waitlist {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.waitlist-benefits {
+    margin-top: 3rem;
+}
+
+.waitlist-benefits h4 {
+    color: var(--primary-red);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--light-red);
+    border-radius: 0.75rem;
+    border: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.benefit-item i {
+    color: var(--primary-red);
+    font-size: 1.2rem;
+}
+
+.benefit-item span {
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -1350,9 +1589,132 @@ p {
     animation: fadeInUp 0.6s ease-out;
 }
 
+/* Notification System */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 400px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    font-weight: 500;
+}
+
+.notification.show {
+    transform: translateX(0);
+}
+
+.notification-success {
+    background: linear-gradient(135deg, #10B981, #059669);
+    color: white;
+}
+
+.notification-error {
+    background: linear-gradient(135deg, #EF4444, #DC2626);
+    color: white;
+}
+
+.notification-warning {
+    background: linear-gradient(135deg, #F59E0B, #D97706);
+    color: white;
+}
+
+.notification-info {
+    background: linear-gradient(135deg, #3B82F6, #2563EB);
+    color: white;
+}
+
+.notification-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.notification-content i {
+    font-size: 1.2rem;
+}
+
+.notification-close {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+    margin-left: auto;
+}
+
+.notification-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .feature-card:nth-child(1) { animation-delay: 0.1s; }
 .feature-card:nth-child(2) { animation-delay: 0.2s; }
 .feature-card:nth-child(3) { animation-delay: 0.3s; }
 .feature-card:nth-child(4) { animation-delay: 0.4s; }
 .feature-card:nth-child(5) { animation-delay: 0.5s; }
 .feature-card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Responsive Design for Team and Waitlist */
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .team-member {
+        padding: 1.5rem;
+    }
+    
+    .member-photo i {
+        font-size: 3rem;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .waitlist-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .waitlist-card {
+        padding: 2rem;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .notification {
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-member {
+        padding: 1rem;
+    }
+    
+    .member-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .waitlist-card {
+        padding: 1.5rem;
+        margin: 0 1rem;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 0.8rem 1rem;
+    }
+}

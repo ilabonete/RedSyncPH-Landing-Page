@@ -432,8 +432,12 @@ p {
 }
 
 .feature-card .feature-icon i {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--white);
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    line-height: 1;
 }
 
 .feature-card h3 {

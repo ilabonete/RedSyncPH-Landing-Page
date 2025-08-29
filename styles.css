@@ -503,6 +503,74 @@ p {
     box-shadow: 0 4px 20px rgba(220, 38, 38, 0.08);
 }
 
+.objectives-section {
+    margin: 2rem 0;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, #FEF2F2, var(--white));
+    border-radius: 1.5rem;
+    border-left: 6px solid var(--primary-red);
+    box-shadow: 0 4px 20px rgba(220, 38, 38, 0.08);
+}
+
+.objectives-section h3 {
+    color: var(--primary-red);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.objective-category {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 1rem;
+    border: 1px solid rgba(220, 38, 38, 0.1);
+}
+
+.objective-category h4 {
+    color: var(--secondary-red);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.objective-category h4 i {
+    color: var(--primary-red);
+    font-size: 1.2rem;
+}
+
+.objective-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.objective-list li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(220, 38, 38, 0.1);
+    color: var(--dark-gray);
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.objective-list li:last-child {
+    border-bottom: none;
+}
+
+.objective-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-red);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .context-item {
     display: flex;
     align-items: flex-start;

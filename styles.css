@@ -641,8 +641,11 @@ p {
 
 .detail-icon i {
     color: var(--white);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
+    display: block;
+    text-align: center;
+    line-height: 1;
 }
 
 .detail-content h4 {
